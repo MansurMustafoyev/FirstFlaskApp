@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}
+    Bosh sahifa
+{% endblock %}
+{% block content %}
+<table class="table table-hover text-center" style="margin-top: 100px;">
+    <tr class="table-head">
+        <td>Ism</td>
+        <td>Yosh</td>
+    </tr>
+{%for x in result%}
+    <tr>
+        <td>{{x[0]}}</td>
+        <td>{{x[1]}}</td>
+    </tr>
+        
+{%endfor%}
+</table>
+{% endblock %}
