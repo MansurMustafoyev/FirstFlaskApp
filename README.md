@@ -1,0 +1,2 @@
+# FirstFlaskApp
+ Birinchi flask dasturi
